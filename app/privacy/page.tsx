@@ -27,8 +27,9 @@ export default function Privacy() {
       </p>
       <p>
         To avoid counting a repeated click twice, the download sets one cookie that lasts one hour. It holds the version
-        you downloaded and nothing else. The site has no advertising and no third-party trackers.
+        you downloaded and nothing else. The site has no advertising.
       </p>
+      <p>We use Vercel Web Analytics to measure website visits, page views, referral sources and general device and country information. It does not use cookies for analytics or track visitors across websites. This applies to this website only; the extensions do not include analytics.</p>
       <p>
         The site is hosted on Vercel, which processes standard connection logs to deliver pages. Fonts are served by
         the site itself.
