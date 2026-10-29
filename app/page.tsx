@@ -20,7 +20,7 @@ export default function Home() {
               and are free to download.
             </p>
             <div className="row">
-              <DownloadButton ext={featured} />
+              <DownloadButton ext={featured} label="Download my latest extension" />
               <Link className="btn ghost lg" href={`/extensions/${featured.slug}`}>See how it works</Link>
             </div>
           </div>
