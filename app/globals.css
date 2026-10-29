@@ -152,3 +152,14 @@ td { text-align: right; }
   .hdr nav { width: 100%; justify-content: space-between; gap: 12px; }
   .support-dialog { padding: 44px 22px 24px; }
 }
+
+.controls-table { overflow-x: auto; }
+.controls-table table { max-width: 760px; }
+.controls-table th, .controls-table td { padding: 14px 12px; text-align: left; vertical-align: top; }
+.controls-table th[scope="row"] { width: 38%; color: var(--cyan); }
+.controls-table td { color: var(--muted); }
+kbd { font: .88em ui-monospace, monospace; }
+
+.product-title { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+.product-title h1 { margin: 0; }
+.product-title img { border-radius: 16px; flex-shrink: 0; }
